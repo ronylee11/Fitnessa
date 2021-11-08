@@ -1,6 +1,6 @@
 # Fitnessa
 
-A gym workout record android app created using Android Studio
+A gym workout record android app created using Android Studio \n
 Features:
 - BMI Calculator
 - Calculate Workout Volume
