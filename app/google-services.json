@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "106471495115",
+    "firebase_url": "https://fitnessa-33070-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fitnessa-33070",
+    "storage_bucket": "fitnessa-33070.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106471495115:android:9651471e232ce5b517124e",
+        "android_client_info": {
+          "package_name": "com.example.fitnessa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106471495115-47trfsuaarm7dm57ni4r11p3vj50h7ph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQTD9cRJGTzYdOxueYnNeVkbBe4OB-a0A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106471495115-47trfsuaarm7dm57ni4r11p3vj50h7ph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
