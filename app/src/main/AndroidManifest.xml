@@ -10,12 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Fitnessa" >
         <activity
-            android:name=".BMIActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".TestActivity"
-            android:exported="false" />
-        <activity
             android:name=".LoginActivity"
             android:exported="false" />
         <activity

@@ -44,7 +44,8 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:inputType="number"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="SpeakableTextPresentCheck,LabelFor"
+                android:importantForAutofill="no" />
 
             <TextView
                 android:id="@+id/weightUnit"
@@ -79,7 +80,8 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:inputType="number"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+                tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,LabelFor"
+                android:importantForAutofill="no" />
 
             <TextView
                 android:id="@+id/heightUnit"

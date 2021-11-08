@@ -41,7 +41,8 @@
                 android:fontFamily="sans-serif-smallcaps"
                 android:inputType="textPersonName"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="LabelFor,SpeakableTextPresentCheck"
+                android:importantForAutofill="no" />
         </LinearLayout>
 
         <LinearLayout
@@ -65,9 +66,10 @@
                 android:layout_weight="1"
                 android:ems="10"
                 android:fontFamily="sans-serif-smallcaps"
+                android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="LabelFor,SpeakableTextPresentCheck" />
         </LinearLayout>
     </LinearLayout>
 
