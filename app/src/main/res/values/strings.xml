@@ -27,4 +27,25 @@
     <string name="reset">Reset</string>
     <string name="calendar">CALENDAR</string>
     <string name="weight2">Weight</string>
+    <string name="calendar2">CALENDAR</string>
+    <string name="ca">ca</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="rep_x">(rep) x</string>
+    <string name="lbs">(lbs) =</string>
+    <string name="set_x">(set) x</string>
+    <string name="v">v</string>
+    <string name="lbs2">(lbs) =</string>
+    <string name="rep_x2">(rep) x</string>
+    <string name="set_x2">(set) x</string>
+    <string name="lbs3">(lbs) =</string>
+    <string name="set_x3">(set) x</string>
+    <string name="v2">v</string>
+    <string name="rep_x3">(rep) x</string>
+    <string name="v3">v</string>
+    <string name="volume2">VOLUME :</string>
+    <string name="reset2">reset</string>
+    <string name="reset3">RESET</string>
+    <string name="calculate2">CALCULATE</string>
 </resources>

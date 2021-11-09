@@ -17,7 +17,7 @@ class LoginActivity : AppCompatActivity() {
         requestWindowFeature(Window.FEATURE_NO_TITLE)
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN)
         setContentView(R.layout.activity_login)
-        Toast.makeText(this, "All data is open! Please do not use repeated password!!", Toast.LENGTH_LONG).show()
+        Toast.makeText(this, "All data is open! Please do not use personal password!!", Toast.LENGTH_LONG).show()
         Handler().postDelayed({
             Toast.makeText(this, "Thanks for using this app, have a nice day! ^-^", Toast.LENGTH_LONG).show()
         }, 500)
