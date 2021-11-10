@@ -1,5 +1,6 @@
 package com.example.fitnessa
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -9,6 +10,7 @@ import android.view.WindowManager
 import android.widget.Toast
 import com.google.firebase.database.FirebaseDatabase
 import kotlinx.android.synthetic.main.activity_login.*
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlin.math.roundToInt
 
 class LoginActivity : AppCompatActivity() {
@@ -20,7 +22,7 @@ class LoginActivity : AppCompatActivity() {
         Toast.makeText(this, "All data is open! Please do not use personal password!!", Toast.LENGTH_LONG).show()
         Handler().postDelayed({
             Toast.makeText(this, "Thanks for using this app, have a nice day! ^-^", Toast.LENGTH_LONG).show()
-        }, 500)
+        }, 2000)
         fun allButtons(id: View){
             when(id){
                 backBtn -> {
@@ -29,8 +31,14 @@ class LoginActivity : AppCompatActivity() {
                 loginBtn2 -> {
                     val serialId = (Math.random() * 1000000).roundToInt().toString()
                     val dataRef = FirebaseDatabase.getInstance().reference
-                    dataRef.child(serialId).child("Login Credentials").child("ID").setValue(loginId.text.toString())
-                    dataRef.child(serialId).child("Login Credentials").child("Password").setValue(loginPassword.text.toString())
+                    val loginID = loginId.text.toString()
+                    val loginPWD = loginPassword.text.toString()
+                    dataRef.child(serialId).child("Login Credentials").child("ID").setValue(loginID)
+                    dataRef.child(serialId).child("Login Credentials").child("Password").setValue(loginPWD)
+                    loginComment.text = "You've logged in!"
+                    Handler().postDelayed({
+                        finish()
+                    }, 500)
                 }
             }
         }
