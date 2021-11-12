@@ -14,12 +14,12 @@
     <string name="weight">Weight</string>
     <string name="underweight">UNDERWEIGHT</string>
     <string name="_18_5"><![CDATA[< 18.5]]></string>
-    <string name="_18_5_24_9">18.5 - 24.9</string>
+    <string name="_18_5_24_9">18.5 – 24.9</string>
     <string name="height">Height</string>
     <string name="kg">(kg)</string>
     <string name="m">(m)</string>
     <string name="bmi2">BMI :</string>
-    <string name="_25_0_29_9">25.0 - 29.9</string>
+    <string name="_25_0_29_9">25.0 – 29.9</string>
     <string name="_30_0"><![CDATA[> 30.0]]></string>
     <string name="obesity">OBESITY</string>
     <string name="overweight">OVERWEIGHT</string>
@@ -48,4 +48,5 @@
     <string name="reset2">reset</string>
     <string name="reset3">RESET</string>
     <string name="calculate2">CALCULATE</string>
+    <string name="save">SAVE</string>
 </resources>

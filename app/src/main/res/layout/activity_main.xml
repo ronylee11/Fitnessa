@@ -8,10 +8,27 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/addDataBtn"
+        android:layout_width="59dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="300dp"
+        android:backgroundTint="#C7AA7F"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:insetTop="0dp"
+        android:text="@string/save"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#424242"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
         android:id="@+id/resetBtn2"
         android:layout_width="59dp"
         android:layout_height="35dp"
-        android:layout_marginStart="300dp"
+        android:layout_marginStart="150dp"
         android:layout_marginTop="300dp"
         android:backgroundTint="#C7AA7F"
         android:fontFamily="sans-serif-condensed-medium"
@@ -22,13 +39,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/calcBtn"
         android:layout_width="59dp"
         android:layout_height="35dp"
-        android:layout_marginStart="150dp"
+        android:layout_marginStart="300dp"
         android:layout_marginTop="300dp"
         android:backgroundTint="#C7AA7F"
         android:fontFamily="sans-serif-condensed-medium"
@@ -39,7 +57,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
 
     <Button
         android:id="@+id/bmiBtn"
@@ -144,7 +163,8 @@
                     android:fontFamily="sans-serif-condensed-medium"
                     android:text="@string/_1"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="#5D4037" />
+                    android:textColor="#5D4037"
+                    tools:ignore="NestedWeights" />
             </LinearLayout>
 
             <LinearLayout
@@ -161,7 +181,9 @@
                     android:ems="10"
                     android:inputType="textPersonName"
                     android:textColor="#5D4037"
-                    app:backgroundTint="#5D4037" />
+                    app:backgroundTint="#5D4037"
+                    tools:ignore="LabelFor,NestedWeights,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -177,7 +199,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -196,7 +220,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -215,7 +241,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -230,7 +258,7 @@
                         android:id="@+id/vol1"
                         android:layout_width="40dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -239,7 +267,7 @@
                     <TextView
                         android:layout_width="15dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:text="@string/v"
@@ -269,7 +297,8 @@
                     android:fontFamily="sans-serif-condensed-medium"
                     android:text="@string/_2"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="#5D4037" />
+                    android:textColor="#5D4037"
+                    tools:ignore="NestedWeights" />
             </LinearLayout>
 
             <LinearLayout
@@ -286,7 +315,9 @@
                     android:backgroundTint="#5D4037"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:textColor="#5D4037" />
+                    android:textColor="#5D4037"
+                    tools:ignore="LabelFor,NestedWeights,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -302,7 +333,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -321,7 +354,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -340,7 +375,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -355,7 +392,7 @@
                         android:id="@+id/vol2"
                         android:layout_width="40dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -364,7 +401,7 @@
                     <TextView
                         android:layout_width="15dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:text="@string/v"
@@ -394,7 +431,8 @@
                     android:fontFamily="sans-serif-condensed-medium"
                     android:text="@string/_3"
                     android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                    android:textColor="#5D4037" />
+                    android:textColor="#5D4037"
+                    tools:ignore="NestedWeights" />
             </LinearLayout>
 
             <LinearLayout
@@ -411,7 +449,9 @@
                     android:backgroundTint="#5D4037"
                     android:ems="10"
                     android:inputType="textPersonName"
-                    android:textColor="#5D4037" />
+                    android:textColor="#5D4037"
+                    tools:ignore="LabelFor,NestedWeights,SpeakableTextPresentCheck,TouchTargetSizeCheck"
+                    android:importantForAutofill="no" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -427,7 +467,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -446,7 +488,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -465,7 +509,9 @@
                         android:backgroundTint="#5D4037"
                         android:ems="10"
                         android:inputType="number"
-                        android:textColor="#5D4037" />
+                        android:textColor="#5D4037"
+                        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+                        android:importantForAutofill="no" />
 
                     <TextView
                         android:layout_width="50dp"
@@ -480,7 +526,7 @@
                         android:id="@+id/vol3"
                         android:layout_width="40dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
@@ -489,7 +535,7 @@
                     <TextView
                         android:layout_width="15dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_weight="1"
                         android:fontFamily="sans-serif-condensed-medium"
                         android:text="@string/v"
@@ -531,7 +577,7 @@
 
         <EditText
             android:id="@+id/notes"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
             android:layout_marginRight="40dp"
@@ -540,7 +586,9 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:textColor="#5D4037" />
+            android:textColor="#5D4037"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck, LabelFor"
+            android:importantForAutofill="no" />
 
     </LinearLayout>
 
