@@ -84,6 +84,9 @@ class MainActivity : AppCompatActivity() {
                         val workout3 = workout3.text.toString() + "(" + rep3.text.toString() + "repx" + set3.text.toString() + "setx" + lbs3.text.toString() + "lbs=" + vol3.text.toString() + ")"
                         dataRef.child(serialId).child(currentDate).child("Workout 3").setValue(workout3)
                     }
+                    if (notes.text.toString() != "") {
+                        dataRef.child(serialId).child(currentDate).child("Notes").setValue(notes.text.toString())
+                    }
                 }
             }
         }
