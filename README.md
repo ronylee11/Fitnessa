@@ -1,6 +1,7 @@
 # Fitnessa
 
 A gym workout record android app created using Android Studio
+It uses Firebase's Realtime Database to store data (passwords, dates, exercises etc.)
 
 Features:
 - BMI Calculator
